@@ -1,0 +1,211 @@
+{
+  "type": "ConditionNode",
+  "feature_idx": 3,
+  "threshold": 0.5,
+  "left": {
+    "type": "ConditionNode",
+    "feature_idx": 9,
+    "threshold": 0.0179513627933936,
+    "left": {
+      "type": "ActionNode",
+      "action": 2
+    },
+    "right": {
+      "type": "ConditionNode",
+      "feature_idx": 9,
+      "threshold": 0.0179513627933936,
+      "left": {
+        "type": "ActionNode",
+        "action": 2
+      },
+      "right": {
+        "type": "ConditionNode",
+        "feature_idx": 1,
+        "threshold": 0.5,
+        "left": {
+          "type": "ConditionNode",
+          "feature_idx": 8,
+          "threshold": 0.3307930480528488,
+          "left": {
+            "type": "ActionNode",
+            "action": 2
+          },
+          "right": {
+            "type": "ActionNode",
+            "action": 0
+          }
+        },
+        "right": {
+          "type": "ActionNode",
+          "action": 1
+        }
+      }
+    }
+  },
+  "right": {
+    "type": "ConditionNode",
+    "feature_idx": 0,
+    "threshold": 0.5,
+    "left": {
+      "type": "ActionNode",
+      "action": 3
+    },
+    "right": {
+      "type": "ConditionNode",
+      "feature_idx": 0,
+      "threshold": 0.5,
+      "left": {
+        "type": "ConditionNode",
+        "feature_idx": 5,
+        "threshold": 0.5,
+        "left": {
+          "type": "ActionNode",
+          "action": 3
+        },
+        "right": {
+          "type": "ConditionNode",
+          "feature_idx": 7,
+          "threshold": 0.5,
+          "left": {
+            "type": "ConditionNode",
+            "feature_idx": 3,
+            "threshold": 0.5,
+            "left": {
+              "type": "ConditionNode",
+              "feature_idx": 1,
+              "threshold": 0.5,
+              "left": {
+                "type": "ActionNode",
+                "action": 3
+              },
+              "right": {
+                "type": "ActionNode",
+                "action": 1
+              }
+            },
+            "right": {
+              "type": "ActionNode",
+              "action": 1
+            }
+          },
+          "right": {
+            "type": "ConditionNode",
+            "feature_idx": 3,
+            "threshold": 0.5,
+            "left": {
+              "type": "ConditionNode",
+              "feature_idx": 8,
+              "threshold": -0.41591772921659353,
+              "left": {
+                "type": "ActionNode",
+                "action": 0
+              },
+              "right": {
+                "type": "ActionNode",
+                "action": 3
+              }
+            },
+            "right": {
+              "type": "ActionNode",
+              "action": 2
+            }
+          }
+        }
+      },
+      "right": {
+        "type": "ConditionNode",
+        "feature_idx": 1,
+        "threshold": 0.5,
+        "left": {
+          "type": "ConditionNode",
+          "feature_idx": 0,
+          "threshold": 0.5,
+          "left": {
+            "type": "ConditionNode",
+            "feature_idx": 5,
+            "threshold": 0.5,
+            "left": {
+              "type": "ConditionNode",
+              "feature_idx": 5,
+              "threshold": 0.5,
+              "left": {
+                "type": "ActionNode",
+                "action": 2
+              },
+              "right": {
+                "type": "ActionNode",
+                "action": 1
+              }
+            },
+            "right": {
+              "type": "ActionNode",
+              "action": 0
+            }
+          },
+          "right": {
+            "type": "ConditionNode",
+            "feature_idx": 9,
+            "threshold": -0.05894839076473424,
+            "left": {
+              "type": "ConditionNode",
+              "feature_idx": 3,
+              "threshold": 0.5,
+              "left": {
+                "type": "ActionNode",
+                "action": 2
+              },
+              "right": {
+                "type": "ActionNode",
+                "action": 3
+              }
+            },
+            "right": {
+              "type": "ConditionNode",
+              "feature_idx": 1,
+              "threshold": 0.5,
+              "left": {
+                "type": "ActionNode",
+                "action": 0
+              },
+              "right": {
+                "type": "ActionNode",
+                "action": 2
+              }
+            }
+          }
+        },
+        "right": {
+          "type": "ConditionNode",
+          "feature_idx": 8,
+          "threshold": 0.19873207493229872,
+          "left": {
+            "type": "ConditionNode",
+            "feature_idx": 0,
+            "threshold": 0.5,
+            "left": {
+              "type": "ActionNode",
+              "action": 0
+            },
+            "right": {
+              "type": "ConditionNode",
+              "feature_idx": 8,
+              "threshold": -0.26370968930973093,
+              "left": {
+                "type": "ActionNode",
+                "action": 1
+              },
+              "right": {
+                "type": "ActionNode",
+                "action": 2
+              }
+            }
+          },
+          "right": {
+            "type": "ActionNode",
+            "action": 0
+          }
+        }
+      }
+    }
+  }
+}
