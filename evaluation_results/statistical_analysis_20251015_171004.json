@@ -1,0 +1,345 @@
+{
+  "4x4": {
+    "grid_size": "4x4",
+    "grid_width": 4,
+    "grid_height": 4,
+    "pso_nn_stats": {
+      "points_mean": 6.28,
+      "points_std": 3.7270706025485896,
+      "games_won_mean": 13.5,
+      "games_won_std": 34.258109849381086,
+      "moves_mean": 24.315,
+      "moves_std": 13.869302895750398
+    },
+    "simple_agents_stats": {
+      "A*": {
+        "points_mean": 4.635,
+        "points_std": 3.4028919123054977,
+        "games_won_mean": 5.0,
+        "games_won_std": 21.849186132974538,
+        "moves_mean": 14.65,
+        "moves_std": 9.423988422581212
+      },
+      "DQN": {
+        "points_mean": 7.255,
+        "points_std": 2.71048123821464,
+        "games_won_mean": 14.5,
+        "games_won_std": 35.298440468347714,
+        "moves_mean": 25.165,
+        "moves_std": 9.956073119448199
+      }
+    },
+    "statistical_tests": {
+      "A*": {
+        "points_pvalue": 1.1970626917832355e-05,
+        "games_won_pvalue": 0.0033980311231071912,
+        "moves_pvalue": 6.1536194880029e-12,
+        "points_significant": true,
+        "games_won_significant": true,
+        "moves_significant": true
+      },
+      "DQN": {
+        "points_pvalue": 0.028676629780645547,
+        "games_won_pvalue": 0.7740241503491606,
+        "moves_pvalue": 0.8175499710183316,
+        "points_significant": true,
+        "games_won_significant": false,
+        "moves_significant": false
+      }
+    }
+  },
+  "5x5": {
+    "grid_size": "5x5",
+    "grid_width": 5,
+    "grid_height": 5,
+    "pso_nn_stats": {
+      "points_mean": 10.785,
+      "points_std": 3.366816339111258,
+      "games_won_mean": 2.5,
+      "games_won_std": 15.651673213169872,
+      "moves_mean": 56.77,
+      "moves_std": 17.551277351902826
+    },
+    "simple_agents_stats": {
+      "A*": {
+        "points_mean": 6.11,
+        "points_std": 4.669789574848831,
+        "games_won_mean": 2.0,
+        "games_won_std": 14.035131799278394,
+        "moves_mean": 24.125,
+        "moves_std": 17.576805610729924
+      },
+      "DQN": {
+        "points_mean": 8.87,
+        "points_std": 3.0757766515223848,
+        "games_won_mean": 0.5,
+        "games_won_std": 7.0710678118654755,
+        "moves_mean": 40.03,
+        "moves_std": 16.43745875283817
+      }
+    },
+    "statistical_tests": {
+      "A*": {
+        "points_pvalue": 1.6776889487478286e-24,
+        "games_won_pvalue": 0.7375930298929049,
+        "moves_pvalue": 1.1361055520566963e-43,
+        "points_significant": true,
+        "games_won_significant": false,
+        "moves_significant": true
+      },
+      "DQN": {
+        "points_pvalue": 2.0510479969762105e-08,
+        "games_won_pvalue": 0.10074180087192744,
+        "moves_pvalue": 8.908177153034597e-20,
+        "points_significant": true,
+        "games_won_significant": false,
+        "moves_significant": true
+      }
+    }
+  },
+  "6x6": {
+    "grid_size": "6x6",
+    "grid_width": 6,
+    "grid_height": 6,
+    "pso_nn_stats": {
+      "points_mean": 12.3,
+      "points_std": 4.580930541179988,
+      "games_won_mean": 0.0,
+      "games_won_std": 0.0,
+      "moves_mean": 81.4,
+      "moves_std": 31.240516148844776
+    },
+    "simple_agents_stats": {
+      "A*": {
+        "points_mean": 7.89,
+        "points_std": 5.455889814534538,
+        "games_won_mean": 0.0,
+        "games_won_std": 0.0,
+        "moves_mean": 37.075,
+        "moves_std": 26.760230279710143
+      },
+      "DQN": {
+        "points_mean": 11.785,
+        "points_std": 3.680558047047817,
+        "games_won_mean": 0.0,
+        "games_won_std": 0.0,
+        "moves_mean": 60.235,
+        "moves_std": 22.710318532314687
+      }
+    },
+    "statistical_tests": {
+      "A*": {
+        "points_pvalue": 3.293349225957688e-15,
+        "games_won_pvalue": 1.0,
+        "moves_pvalue": 7.294955042062007e-35,
+        "points_significant": true,
+        "games_won_significant": false,
+        "moves_significant": true
+      },
+      "DQN": {
+        "points_pvalue": 0.16668136074674544,
+        "games_won_pvalue": 1.0,
+        "moves_pvalue": 1.0771024346548751e-13,
+        "points_significant": false,
+        "games_won_significant": false,
+        "moves_significant": true
+      }
+    }
+  },
+  "7x7": {
+    "grid_size": "7x7",
+    "grid_width": 7,
+    "grid_height": 7,
+    "pso_nn_stats": {
+      "points_mean": 14.56,
+      "points_std": 5.108510978955664,
+      "games_won_mean": 0.0,
+      "games_won_std": 0.0,
+      "moves_mean": 117.17,
+      "moves_std": 42.76805622384339
+    },
+    "simple_agents_stats": {
+      "A*": {
+        "points_mean": 9.03,
+        "points_std": 6.538567451790035,
+        "games_won_mean": 0.0,
+        "games_won_std": 0.0,
+        "moves_mean": 50.24,
+        "moves_std": 38.61148317749305
+      },
+      "DQN": {
+        "points_mean": 12.975,
+        "points_std": 4.64351008716986,
+        "games_won_mean": 0.0,
+        "games_won_std": 0.0,
+        "moves_mean": 76.09,
+        "moves_std": 32.65630215366949
+      }
+    },
+    "statistical_tests": {
+      "A*": {
+        "points_pvalue": 1.4252224136994367e-17,
+        "games_won_pvalue": 1.0,
+        "moves_pvalue": 3.446863881198702e-37,
+        "points_significant": true,
+        "games_won_significant": false,
+        "moves_significant": true
+      },
+      "DQN": {
+        "points_pvalue": 3.88952950996459e-05,
+        "games_won_pvalue": 1.0,
+        "moves_pvalue": 1.1918676795840093e-22,
+        "points_significant": true,
+        "games_won_significant": false,
+        "moves_significant": true
+      }
+    }
+  },
+  "8x8": {
+    "grid_size": "8x8",
+    "grid_width": 8,
+    "grid_height": 8,
+    "pso_nn_stats": {
+      "points_mean": 16.635,
+      "points_std": 5.84831505176693,
+      "games_won_mean": 0.0,
+      "games_won_std": 0.0,
+      "moves_mean": 158.425,
+      "moves_std": 58.80599544691436
+    },
+    "simple_agents_stats": {
+      "A*": {
+        "points_mean": 9.665,
+        "points_std": 7.055613610245776,
+        "games_won_mean": 0.0,
+        "games_won_std": 0.0,
+        "moves_mean": 59.04,
+        "moves_std": 46.37035095010799
+      },
+      "DQN": {
+        "points_mean": 15.26,
+        "points_std": 5.388653629590465,
+        "games_won_mean": 0.0,
+        "games_won_std": 0.0,
+        "moves_mean": 102.965,
+        "moves_std": 43.81394852586486
+      }
+    },
+    "statistical_tests": {
+      "A*": {
+        "points_pvalue": 1.7473862259469277e-22,
+        "games_won_pvalue": 1.0,
+        "moves_pvalue": 1.0670648644304239e-42,
+        "points_significant": true,
+        "games_won_significant": false,
+        "moves_significant": true
+      },
+      "DQN": {
+        "points_pvalue": 0.0006611332638832949,
+        "games_won_pvalue": 1.0,
+        "moves_pvalue": 8.696822398031234e-23,
+        "points_significant": true,
+        "games_won_significant": false,
+        "moves_significant": true
+      }
+    }
+  },
+  "9x9": {
+    "grid_size": "9x9",
+    "grid_width": 9,
+    "grid_height": 9,
+    "pso_nn_stats": {
+      "points_mean": 19.55,
+      "points_std": 6.7016460889476654,
+      "games_won_mean": 0.0,
+      "games_won_std": 0.0,
+      "moves_mean": 212.37,
+      "moves_std": 76.11570866468786
+    },
+    "simple_agents_stats": {
+      "A*": {
+        "points_mean": 11.85,
+        "points_std": 8.309799264669122,
+        "games_won_mean": 0.0,
+        "games_won_std": 0.0,
+        "moves_mean": 82.28,
+        "moves_std": 63.206621369320345
+      },
+      "DQN": {
+        "points_mean": 16.03,
+        "points_std": 5.2952144888013795,
+        "games_won_mean": 0.0,
+        "games_won_std": 0.0,
+        "moves_mean": 118.99,
+        "moves_std": 47.79278871614766
+      }
+    },
+    "statistical_tests": {
+      "A*": {
+        "points_pvalue": 1.7202335436808806e-21,
+        "games_won_pvalue": 1.0,
+        "moves_pvalue": 4.7792051108069484e-43,
+        "points_significant": true,
+        "games_won_significant": false,
+        "moves_significant": true
+      },
+      "DQN": {
+        "points_pvalue": 1.9331833417644794e-09,
+        "games_won_pvalue": 1.0,
+        "moves_pvalue": 1.9755308310581092e-33,
+        "points_significant": true,
+        "games_won_significant": false,
+        "moves_significant": true
+      }
+    }
+  },
+  "10x10": {
+    "grid_size": "10x10",
+    "grid_width": 10,
+    "grid_height": 10,
+    "pso_nn_stats": {
+      "points_mean": 21.785,
+      "points_std": 6.557727805410137,
+      "games_won_mean": 0.0,
+      "games_won_std": 0.0,
+      "moves_mean": 265.905,
+      "moves_std": 84.16928368818947
+    },
+    "simple_agents_stats": {
+      "A*": {
+        "points_mean": 13.82,
+        "points_std": 9.703006838529113,
+        "games_won_mean": 0.0,
+        "games_won_std": 0.0,
+        "moves_mean": 104.615,
+        "moves_std": 79.63413055181628
+      },
+      "DQN": {
+        "points_mean": 16.875,
+        "points_std": 6.365688095141256,
+        "games_won_mean": 0.0,
+        "games_won_std": 0.0,
+        "moves_mean": 135.06,
+        "moves_std": 63.28309530003861
+      }
+    },
+    "statistical_tests": {
+      "A*": {
+        "points_pvalue": 1.09181370694669e-19,
+        "games_won_pvalue": 1.0,
+        "moves_pvalue": 4.208326603347086e-45,
+        "points_significant": true,
+        "games_won_significant": false,
+        "moves_significant": true
+      },
+      "DQN": {
+        "points_pvalue": 1.3194015932140862e-15,
+        "games_won_pvalue": 1.0,
+        "moves_pvalue": 1.0400172288583539e-40,
+        "points_significant": true,
+        "games_won_significant": false,
+        "moves_significant": true
+      }
+    }
+  }
+}

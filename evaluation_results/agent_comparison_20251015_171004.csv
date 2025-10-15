@@ -1,0 +1,6 @@
+,,points_scored,points_scored,points_scored,game_won_percentage,game_won_percentage,moves_made,moves_made,successful_episode,high_performance
+,,count,mean,std,mean,std,mean,std,mean,mean
+agent,agent_category,,,,,,,,,
+A*,Simple_Agent,1400,9.0,7.3485,1.0,9.9534,53.1464,54.9737,1.0,0.0843
+DQN,Simple_Agent,1400,12.7214,5.7225,2.1429,14.486,79.7907,53.7362,1.0,0.1414
+GP,PSO-NN,1400,14.5564,7.2016,2.2857,14.9501,130.9079,96.1438,0.9929,0.1786
